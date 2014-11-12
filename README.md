@@ -1,4 +1,6 @@
-atomic-design-suissa
+Atomic Design
 ====================
 
-Desafio de atomic design com meu brother suissa
+A simple example Gruntjs with Stylus
+
+Build by: @joaopedron
