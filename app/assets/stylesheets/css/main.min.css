@@ -1,0 +1,12 @@
+/**
+*
+* Require partials
+*
+**/
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #2c3e50;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
