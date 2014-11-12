@@ -5,7 +5,7 @@ module.exports = function(grunt) {
       compile: {
         options: {
           paths: ['app/assets/stylesheets/css/', 'app/assets/dist/stylesheets/stylus/'],
-          compress: false,
+          compress: true,
           use: [
             require('jeet')
             ]
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
     },
     watch: {
       css: {
-        files: [ '*.html', 'app/assets/dist/stylesheets/stylus/partials/*.styl' ],
+        files: [ 'app/*.html', 'app/assets/dist/stylesheets/stylus/partials/*.styl' ],
         tasks: [ 'stylus' ],
         options: {
           livereload: true
