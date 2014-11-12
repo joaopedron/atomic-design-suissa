@@ -1,11 +1,8 @@
-@import 'jeet'
-
 /**
 *
 * Headings style
 *
 **/
-
 color-primary = #2c3e50
 color-secondary = #7ab55c
 
@@ -13,28 +10,10 @@ body
   color color-primary
   font-family Helvetica, sans-serif
 
-
-section
-  center(50%)
-
 h1
   font-size 2em
   text-transform lowercase
-  margin-bottom 0
-
   letter-spacing -1px
   &:after
     content "."
     color color-secondary
-
-p
-  font-weight 100
-  color lighten(color-primary, 65%)
-
-a
-  text-decoration none
-  color color-secondary
-  font-weight 700
-  &:hover
-    color color-primary
-    border-bottom 2px solid color-primary

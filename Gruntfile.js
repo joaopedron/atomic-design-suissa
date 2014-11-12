@@ -6,9 +6,6 @@ module.exports = function(grunt) {
         options: {
           paths: ['app/assets/stylesheets/css/', 'app/assets/dist/stylesheets/stylus/'],
           compress: true,
-          use: [
-            require('jeet')
-            ]
         },
         files: {
           'app/assets/stylesheets/css/main.min.css': ['app/assets/dist/stylesheets/stylus/main.styl']
